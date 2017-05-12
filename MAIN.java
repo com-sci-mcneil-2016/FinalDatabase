@@ -1,14 +1,13 @@
 
 /**
- * Write a description of class MAIN here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Logan Keim, Kyle Dodds, Connor Simpson
+ * 5/12/2017
+ * Period 5
  */
 public class MAIN
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private ArrayList<int> things;
 
     /**
      * Constructor for objects of class MAIN
@@ -16,7 +15,7 @@ public class MAIN
     public MAIN()
     {
         // initialise instance variables
-        x = 0;
+        things = new ArrayList<int>;
     }
 
     /**
