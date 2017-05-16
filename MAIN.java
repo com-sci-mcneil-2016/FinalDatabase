@@ -1,4 +1,4 @@
-
+import java.util.*;
 /**
  * Logan Keim, Kyle Dodds, Connor Simpson
  * 5/12/2017
@@ -17,5 +17,8 @@ public class MAIN
         // initialise instance variables
         things = new ArrayList();
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> refs/remotes/origin/master
 }
