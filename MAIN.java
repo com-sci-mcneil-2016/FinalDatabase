@@ -1,4 +1,4 @@
-
+import java.util.*;
 /**
  * Logan Keim, Kyle Dodds, Connor Simpson
  * 5/12/2017
@@ -16,17 +16,5 @@ public class MAIN
     {
         // initialise instance variables
         things = new ArrayList();
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
     }
 }
