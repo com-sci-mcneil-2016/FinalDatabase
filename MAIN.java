@@ -7,7 +7,7 @@
 public class MAIN
 {
     // instance variables - replace the example below with your own
-    private ArrayList<int> things;
+    private ArrayList things;
 
     /**
      * Constructor for objects of class MAIN
@@ -15,7 +15,7 @@ public class MAIN
     public MAIN()
     {
         // initialise instance variables
-        things = new ArrayList<int>;
+        things = new ArrayList();
     }
 
     /**
