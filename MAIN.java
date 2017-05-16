@@ -17,4 +17,9 @@ public class MAIN
         // initialise instance variables
         things = new ArrayList();
     }
+    public void add(int id, String name, int value)
+    {
+        Result thing = new Result(id,name,value);
+        things.add(thing);
+    }
 }
