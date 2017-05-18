@@ -28,5 +28,11 @@ public class MAIN
         Result thing = new Result(id,name,value);
         things.add(thing);
     }
+	public void remove(int index)
+	{
+		things.remove(index);
+		
+	}
+	}
 >>>>>>> refs/remotes/origin/master
 }
