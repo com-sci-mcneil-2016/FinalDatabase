@@ -17,9 +17,22 @@ public class MAIN
         // initialise instance variables
         things = new ArrayList();
     }
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> refs/remotes/origin/master
+=======
     public void add(int id, String name, int value)
     {
         Result thing = new Result(id,name,value);
         things.add(thing);
     }
+	public void remove(int index)
+	{
+		things.remove(index);
+		
+	}
+	}
+>>>>>>> refs/remotes/origin/master
 }
