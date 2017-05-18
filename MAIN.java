@@ -31,7 +31,6 @@ public class MAIN
 	public void remove(int index)
 	{
 		things.remove(index);
-		
 	}
 	}
 >>>>>>> refs/remotes/origin/master
