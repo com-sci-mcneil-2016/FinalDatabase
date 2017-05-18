@@ -27,10 +27,10 @@ MayflowerTutorial.jcw
 *.aif
 *.jpg
 *.XM
-*.java
 testdata/distance.test
 *.props
 testdata/map.dat
 *.tmx
 testdata/retro4.svgz
 *.def
+*.java
