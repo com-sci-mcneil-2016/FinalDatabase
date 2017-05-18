@@ -6,15 +6,9 @@ import java.util.*;
  */
 public class MAIN
 {
-    // instance variables - replace the example below with your own
     private ArrayList things;
-
-    /**
-     * Constructor for objects of class MAIN
-     */
     public MAIN()
     {
-        // initialise instance variables
         things = new ArrayList();
     }
     public void add(int id, String name, int value)
