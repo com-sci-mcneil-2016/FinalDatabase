@@ -6,23 +6,11 @@ import java.util.*;
  */
 public class MAIN
 {
-    // instance variables - replace the example below with your own
-    private ArrayList things;
-
-    /**
-     * Constructor for objects of class MAIN
-     */
+    private ArrayList<Result> things;
     public MAIN()
     {
-        // initialise instance variables
         things = new ArrayList();
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> refs/remotes/origin/master
-=======
     public void add(int id, String name, int value)
     {
         Result thing = new Result(id,name,value);
@@ -32,6 +20,4 @@ public class MAIN
 	{
 		things.remove(index);
 	}
-	}
->>>>>>> refs/remotes/origin/master
 }
