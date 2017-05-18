@@ -16,4 +16,9 @@ public class Result
         name = name;
         value = value;       
     }
+    
+    public String getName()
+    {
+        return name;
+    }
 }
