@@ -8,6 +8,7 @@ public class MAIN
 {
     // instance variables - replace the example below with your own
     private ArrayList<Result> things;
+    private int index;
 
     /**
      * Constructor for objects of class MAIN
@@ -16,6 +17,7 @@ public class MAIN
     {
         // initialise instance variables
         things = new ArrayList();
+        index = 0;
     }
 
     public void add(int id, String name, int value)
@@ -46,4 +48,10 @@ public class MAIN
         }
         return null;
        }
+       
+    public Result cycle()
+    {
+        index ++;
+        return things.get(index);
+    }
 }
