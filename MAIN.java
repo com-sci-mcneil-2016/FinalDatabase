@@ -29,5 +29,9 @@ public class MAIN
                 
         }
         return null;
-       }
+    }
+    public Result searchByIndex(int index)
+    {
+    	return things.get(index);
+    }
 }
